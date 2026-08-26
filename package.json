@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-proxy",
+  "version": "1.2.0",
+  "description": "Local protocol adapter that routes Claude Code requests to OpenCode Zen.",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "check": "node --check proxy.js"
+  },
+  "keywords": [
+    "claude-code",
+    "anthropic",
+    "opencode",
+    "proxy"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Kartik Patel",
+  "license": "ISC",
+  "type": "module"
+}
